@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/ima"
+        android:layout_width="fill_parent"
+        android:layout_height="300.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textSize="20.0dip"
+        android:textStyle="bold"
+        android:textColor="#ff3892ff"
+        android:gravity="center"
+        android:id="@+id/precio"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginTop="300.0dip"
+        android:text="" />
+</RelativeLayout>

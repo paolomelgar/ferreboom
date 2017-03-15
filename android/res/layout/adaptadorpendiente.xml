@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="17.0dip"
+        android:textStyle="bold"
+        android:textColor="#ff03a42c"
+        android:id="@+id/a"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:text="gfdgsd" />
+    <TextView
+        android:textSize="15.0dip"
+        android:textColor="#ff000000"
+        android:gravity="right" android:id="@+id/b"
+        android:layout_width="120.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:text="gsfg" />
+    <TextView
+        android:textSize="17.0dip"
+        android:textColor="#ff000000"
+        android:id="@+id/c"
+        android:layout_width="120.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="0.0dip"
+        android:text="sgfsg"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold" />
+    <TextView
+        android:textSize="15.0dip"
+        android:textColor="#ff036fff"
+        android:gravity="center_horizontal"
+        android:id="@+id/d"
+        android:layout_width="100.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="40.0dip"
+        android:text="sfgsf" />
+    <TextView
+        android:textSize="15.0dip"
+        android:textColor="#ffff0309"
+        android:gravity="center_horizontal"
+        android:id="@+id/e"
+        android:layout_width="100.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginLeft="100.0dip"
+        android:layout_marginTop="40.0dip"
+        android:text="gsdfg"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textSize="15.0dip"
+        android:textColor="#ff036fff"
+        android:gravity="center_horizontal"
+        android:id="@+id/f"
+        android:layout_width="100.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginLeft="200.0dip"
+        android:layout_marginTop="40.0dip"
+        android:text="sfgsdf"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/g"
+        android:visibility="gone"
+        android:layout_width="100.0dip"
+        android:layout_height="20.0dip" />
+</RelativeLayout>

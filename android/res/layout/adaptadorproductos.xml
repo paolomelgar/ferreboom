@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="13.0dip"
+        android:textStyle="bold"
+        android:textColor="#ff0d3eff"
+        android:gravity="left"
+        android:id="@+id/producto"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:text="ALICATE UNIVERSAL KAMASA" />
+    <TextView
+        android:id="@+id/cant"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="340"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="170dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="214.00"
+        android:gravity="right"
+        android:layout_marginRight="90dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/imp"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="645.00"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>
