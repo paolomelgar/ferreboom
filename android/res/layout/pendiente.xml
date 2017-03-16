@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <ListView
+        android:id="@+id/listac"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true" />
+    <ListView
+        android:id="@+id/listacl"
+        android:visibility="gone"
+        android:layout_width="200.0dip"
+        android:layout_height="200.0dip"
+        android:layout_marginLeft="50.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <SlidingDrawer
+        android:orientation="vertical"
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="300.0dip"
+        android:layout_alignParentBottom="true"
+        android:handle="@+id/handle"
+        android:content="@+id/content">
+        <RelativeLayout
+            android:id="@id/handle"
+            android:background="#00a1fe"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:text="Adelantos"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count"
+                android:background="@drawable/toast_drawable"
+                android:text="  S/. 0.00  "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="bottom|center"
+            android:id="@id/content"
+            android:background="#fbeefffc"
+            android:layout_width="fill_parent"
+            android:layout_height="270.0dip">
+
+            <ListView
+                android:id="@+id/listacuenta"
+                android:background="#fbeefffc"
+                android:layout_width="fill_parent"
+                android:layout_height="240dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:textColor="#fffef9ff"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/buttonn"
+                android:background="@drawable/borderbut"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="   Enviar   "
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </SlidingDrawer>
+</RelativeLayout>

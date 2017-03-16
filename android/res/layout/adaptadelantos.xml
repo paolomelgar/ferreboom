@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="2015-04-10"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center"
+        android:textColor="#ff342d" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="S/. 214.00"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#4ea0fe" />
+    <TextView
+        android:id="@+id/encargado"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:text="New Text"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="#06a803" />
+
+</RelativeLayout>
